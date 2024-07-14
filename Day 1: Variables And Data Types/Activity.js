@@ -33,16 +33,15 @@ let bool = false;
 let obj = { name: "Sidhit", age: 24 ,contactNo: 7988074141 };
 let arr = [1, 2, 3, 4, 5];
 
-console.log( typeof num , num);
+console.log(typeof num , num);
 console.log(typeof str, str);
 console.log(typeof bool, bool);
 console.log(typeof obj , obj );
-console.log( typeof arr , arr );
+console.log(typeof arr , arr );
 
 /*Activity 4: Reassigning variables
 Task 5: Declare a variable using let, assign it an initial value, reassign a new value, and log both values to the console. */
 
-// Task 5
 let reassignVar = 23;
 console.log("Task 5 - Initial reassignVar:", reassignVar);
 
