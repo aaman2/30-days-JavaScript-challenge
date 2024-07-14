@@ -22,9 +22,7 @@ console.log(fix);
 
 
 /*Activity 3: Data Types
-
-Task 4: Create variables of different data types (number, string, boolean, object, array) and 
-log each variable's type using the typoof operator.   */
+      Task 4: Create variables of different data types (number, string, boolean, object, array) and  log each variable's type using the typoof operator.   */
 
 
 let num = 215;
@@ -40,10 +38,21 @@ console.log(typeof obj , obj );
 console.log(typeof arr , arr );
 
 /*Activity 4: Reassigning variables
-Task 5: Declare a variable using let, assign it an initial value, reassign a new value, and log both values to the console. */
+      Task 5: Declare a variable using let, assign it an initial value, reassign a new value, and log both values to the console. */
 
-let reassignVar = 23;
-console.log("Task 5 - Initial reassignVar:", reassignVar);
+let myVariable = 10;
+console.log("Initial value:", myVariable);
+// Reassign a new value 
+myVariable = 20;
+// Log the new value to the console
+console.log("New value:", myVariable);
 
-reassignVar = "New Value";
-console.log("Task 5 - New reassignVar:", reassignVar);
+
+/* Activity 5: Understanding const
+     • Task 6: Try reassigning a variable declared with const and observe the error. */
+
+const ConstEror = 10;
+ConstEror = 20; // This will cause an error
+
+// console.log(ConstEror) ==> if we console ConstEror we Get This Eror in Console --> TypeError: Assignment to constant variable.
+
