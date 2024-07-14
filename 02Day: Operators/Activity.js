@@ -79,4 +79,25 @@ if (num5 === num6) {
 /* Activity 4: Logical Operators
 •	Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.
 •	Task 12: Write a program that uses || the operator to combine two conditions and log the result to the console.
-•	Task 13: Write a program that uses the! Operator to negate a condition and log the result to the console.       */
+•	Task 13: Write a program that uses the! Operator to negate a condition and log the result to the console. */
+
+
+let condition1 = true;
+let condition2 = false;
+let result = condition1 || condition2;
+let result1 = condition1 && condition2;
+console.log("Result of condition1 || condition2:",result); 
+console.log("Result of condition1 && condition2:",result1); 
+
+let condition = true;
+let result2 = !condition;
+console.log("Result of !condition:", result2);
+
+/*Activity 5: Ternary Operator
+•	Task 14: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to the console.*/
+
+let number = 12;
+// a ? b : c    evaluates to b if the value of a is true, and otherwise to c 
+let result3 = (number <= 0) ? "Positive" : "Negative";
+
+console.log(`The number ${number} is:`, result3);
